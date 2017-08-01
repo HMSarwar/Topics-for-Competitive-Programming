@@ -1,4 +1,4 @@
-#A List of must known algorithms
+# A List of must known algorithms
 
     Segment tree (with lazy propagation)
     Interval Tree

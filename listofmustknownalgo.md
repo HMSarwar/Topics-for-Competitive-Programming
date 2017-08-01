@@ -1,4 +1,4 @@
-A List of must known algorithms
+#A List of must known algorithms
 
     Segment tree (with lazy propagation)
     Interval Tree
@@ -31,7 +31,7 @@ A List of must known algorithms
     Numerical Integration/Differentiation
     Line Clipping
     Advanced Maths Ad-Hoc problems
-    Aho–Corasick string matching algorithm;
+    Ahoâ€“Corasick string matching algorithm;
     Calculate nCr % M Lucas's Theorem
     Heavy Light decomposition in trees
     Inverse Modulo operations

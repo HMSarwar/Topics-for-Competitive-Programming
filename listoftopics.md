@@ -2,7 +2,7 @@ List of Topics for programming Competitions
 
 1.Basic Geometry/Euclidean Geometry/Coordinate Geometry/ [3D variants of everything].
 
-    Computational Geometry.
+ #   Computational Geometry.
 
 a. Graham Scan algorithm for Convex Hull O(n * log(n)).
 
@@ -12,29 +12,29 @@ convex hull in O(n^2).
 
 c. Bentley Ottmann algorithm to list all intersection points of n line segments in O((n + I) * logn).
 
-¦ Suggested Reading 1.
+Â¦ Suggested Reading 1.
 
 http://softsurfer.com/Archive/algorithm_0108/algorithm_0108.htm
 
 d. Rotating Calipers Technique.
 
-¦ Suggested Reading http:// cgm.cs.mcgill.ca/~orm/rotcal.html
+Â¦ Suggested Reading http:// cgm.cs.mcgill.ca/~orm/rotcal.html
 
-¦ Problems Refer
+Â¦ Problems Refer
 
 the article for a list of problems which can be solved using Rotating Calipers technique.
 
 e. Line Sweep/Plane Sweep algorithms
 
-¦Area/Perimeter of Union of Rectangles.
+Â¦Area/Perimeter of Union of Rectangles.
 
-¦ Closest pair of points.
+Â¦ Closest pair of points.
 
-¦ Suggested Reading 1.
+Â¦ Suggested Reading 1.
 
 http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=lineSweep
 
-¦ Problems Follow
+Â¦ Problems Follow
 
 the tutorial for list of problems.
 
@@ -46,27 +46,27 @@ h. Voronoi Diagrams of n points in O(n * logn) using Fortunes algorithm.
 
 i. Point in a polygon problem
 
-¦O(n) solution without preprocessing.
+Â¦O(n) solution without preprocessing.
 
-¦ O(logn) algorithm with O(n * logn) preprocessing for convex polygons.
+Â¦ O(logn) algorithm with O(n * logn) preprocessing for convex polygons.
 
-j. Problems on computational geometry ¦ BSHEEP , BULK , SEGVIS , CONDUIT , RUNAWAY , DIRVS , RAIN1 , SHAMAN , TCUTTER , LITEPIPE , RHOMBS , FSHEEP , FLBRKLIN , CERC07P , BAC , ALTARS , CERC07C , NECKLACE , CH3D , RECTANGL , POLYSSQ , FOREST2 , KPPOLY , RAIN2 , SEGMENTS , ARCHPLG , BALLOON , CIRCLES , COMPASS , EOWAMRT , ICERINK on SPOJ.
+j. Problems on computational geometry Â¦ BSHEEP , BULK , SEGVIS , CONDUIT , RUNAWAY , DIRVS , RAIN1 , SHAMAN , TCUTTER , LITEPIPE , RHOMBS , FSHEEP , FLBRKLIN , CERC07P , BAC , ALTARS , CERC07C , NECKLACE , CH3D , RECTANGL , POLYSSQ , FOREST2 , KPPOLY , RAIN2 , SEGMENTS , ARCHPLG , BALLOON , CIRCLES , COMPASS , EOWAMRT , ICERINK on SPOJ.
 
-¦ CultureGrowth , PolygonCover on Topcoder.
+Â¦ CultureGrowth , PolygonCover on Topcoder.
 
-k. Suggested Reading ¦
+k. Suggested Reading Â¦
 
 Computational Geometry: Algorithms and applications. Mark De Burg.
 
-    String Algorithm .
+ #   String Algorithm .
 
 a. KnuthMorrisPratt algorithm.
 
-¦ Problems NHAY,
+Â¦ Problems NHAY,
 
 PERIOD on SPOJ.
 
-¦ Suggested Reading 1.
+Â¦ Suggested Reading 1.
 
 Cormen chapter on Strings.
 
@@ -74,71 +74,71 @@ Cormen chapter on Strings.
 
 b. Aho Corasick algorithm.
 
-¦ Problems WPUZZLES on SPOJ.
+Â¦ Problems WPUZZLES on SPOJ.
 
 c. Suffix Arrays
 
-¦ O(n^2 * logn) Naive method of suffix array construction
+Â¦ O(n^2 * logn) Naive method of suffix array construction
 
-¦ O(n * logn^2) method of suffix array construction
+Â¦ O(n * logn^2) method of suffix array construction
 
-¦ O(n * logn) method of suffix array construction.
+Â¦ O(n * logn) method of suffix array construction.
 
-¦ O(n) method of suffix array construction
+Â¦ O(n) method of suffix array construction
 
-¦ O(n) LCA preprocess on Suffix Arrays to solve a variety of string problems.
+Â¦ O(n) LCA preprocess on Suffix Arrays to solve a variety of string problems.
 
 d. Suffix Trees
 
-¦ O(n) construction of Suffix trees using Ukkenon’s algorithm.
+Â¦ O(n) construction of Suffix trees using Ukkenonâ€™s algorithm.
 
-¦ O(n) construction of Suffix Trees if provided with Suffix Arrays using Farach’s algorithm.
+Â¦ O(n) construction of Suffix Trees if provided with Suffix Arrays using Farachâ€™s algorithm.
 
 e. Suffix Automata
 
-¦ O(n) Suffix Automaton construction.
+Â¦ O(n) Suffix Automaton construction.
 
 f. Dictionary Of Basic Factors
 
-¦ O(n * logn) method of DBF construction using Radix Sort.
+Â¦ O(n * logn) method of DBF construction using Radix Sort.
 
-g. Manachar’s algorithm to find Lengh of palindromic substring of a string centered at a position for each position in the string.
+g. Manacharâ€™s algorithm to find Lengh of palindromic substring of a string centered at a position for each position in the string.
 
 Runtime > O(n).
 
-h. Searching and preprocessing Regular Expressions consisting of ‘?’, ‘*’.
+h. Searching and preprocessing Regular Expressions consisting of â€˜?â€™, â€˜*â€™.
 
 i. Multidimensional pattern matching.
 
 j. Problems on Strings [can be solved with a variety of techniques]
 
-¦ DISUBSTR , PLD , MSTRING , REPEATS , JEWELS , ARCHIVER , PROPKEY , LITELANG , EMOTICON , WORDS , AMCODES , UCODES , PT07H , MINSEQ , TOPALIN , BWHEELER , BEADS , SARRAY , LCS , LCS2 , SUBST1 , PHRASES , PRETILE on SPOJ
+Â¦ DISUBSTR , PLD , MSTRING , REPEATS , JEWELS , ARCHIVER , PROPKEY , LITELANG , EMOTICON , WORDS , AMCODES , UCODES , PT07H , MINSEQ , TOPALIN , BWHEELER , BEADS , SARRAY , LCS , LCS2 , SUBST1 , PHRASES , PRETILE on SPOJ
 
-¦ http://www.algorithmist.com/index.php/Category:String_algorithms
+Â¦ http://www.algorithmist.com/index.php/Category:String_algorithms
 
-    Basic Graphs [beginner] .
+#    Basic Graphs [beginner] .
 
 a. Representation of graphs as adjacency list, adjacency matrix, incidence matrix and edge list and uses of different representations in different scenarios.
 
 b. Breadth First Search.
 
-¦ problems 1. PPATH , ONEZERO , WATER on SPOJ
+Â¦ problems 1. PPATH , ONEZERO , WATER on SPOJ
 
 c. Depth First Search.
 
 d. Strongly Connected Components.
 
-¦ problems 1. TOUR and BOTTOM on SPOJ.
+Â¦ problems 1. TOUR and BOTTOM on SPOJ.
 
 e. Biconnected Components, Finding articulation points and bridges].
 
-¦ problems 1. RELINETS , PT07A on SPOJ.
+Â¦ problems 1. RELINETS , PT07A on SPOJ.
 
-f. Dijkstra algorithm ¦ problems 1. SHPATH on SPOJ.
+f. Dijkstra algorithm Â¦ problems 1. SHPATH on SPOJ.
 
-g. Floyd Warshall algorithm ¦ problems 1. COURIER on SPOJ.
+g. Floyd Warshall algorithm Â¦ problems 1. COURIER on SPOJ.
 
-h. Minimum Spanning Tree ¦ problems 1. BLINNET on SPOJ.
+h. Minimum Spanning Tree Â¦ problems 1. BLINNET on SPOJ.
 
 i. Floodfill algorithm
 
@@ -148,45 +148,45 @@ k. BellmanFord algorithm.
 
 l. Euler Tour/Path.
 
-¦ problems WORDS1 on SPOJ.
+Â¦ problems WORDS1 on SPOJ.
 
-m. Suggested reading for most of the topics in Graph algorithms ¦ http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=graphsDataStrucs1 .
+m. Suggested reading for most of the topics in Graph algorithms Â¦ http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=graphsDataStrucs1 .
 
-¦ Also refer to the tutorial for problems concerning these techniques.
+Â¦ Also refer to the tutorial for problems concerning these techniques.
 
-¦ Cormen chapter 22 to 24.
+Â¦ Cormen chapter 22 to 24.
 
     Flow networks/ matching etc etc. [Interdiate/Advanced].
 
 a. Maximum flow using Ford Fulkerson Method.
 
-¦ Suggested Reading 1.
+Â¦ Suggested Reading 1.
 
 http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=maxFlow
 
-¦ problems TAXI
+Â¦ problems TAXI
 
 , POTHOLE , IM , QUEST4 , MUDDY , EN , CABLETV , STEAD , NETADMIN , COCONUTS , OPTM on SPOJ.
 
 b. Maximum flow using Dinics Algorithm.
 
-¦ Problems PROFIT
+Â¦ Problems PROFIT
 
 on spoj.
 
 c. Minimum Cost Maximum Flow.
 
-¦ Successive Shortest path algorithm.
+Â¦ Successive Shortest path algorithm.
 
-¦ Cycle Cancelling algorithm.
+Â¦ Cycle Cancelling algorithm.
 
-¦ Suggested Reading 1.
+Â¦ Suggested Reading 1.
 
 http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=minimumCostFlow1
 
 d. Maximum weighted Bipartite Matching (Kuhn Munkras algorithm/Hungarian Method)
 
-¦ problems GREED
+Â¦ problems GREED
 
 , SCITIES , TOURS on SPOJ | http://www.topcoder.com/stat?c=problem_statement&pm=8143
 
@@ -194,113 +194,113 @@ e. Stoer Wagner mincut algorithm.
 
 f. Hopcroft Karp bipartite matching algorithm.
 
-¦ problems ANGELS on SPOJ.
+Â¦ problems ANGELS on SPOJ.
 
 g. Maximum matching in general graph (blossom shrinking)
 
 h. GomoryHu Trees.
 
-¦ i) Problems MCQUERY on Spoj.
+Â¦ i) Problems MCQUERY on Spoj.
 
 i. Chinese Postman Problem.
 
-¦ problems http:// acm.uva.es/archive/nuevoportal/data/problem.php?p=4039
+Â¦ problems http:// acm.uva.es/archive/nuevoportal/data/problem.php?p=4039
 
-¦ Suggested Reading http:// eie507.eie.polyu.edu.hk/sssubmission/ B7a/
+Â¦ Suggested Reading http:// eie507.eie.polyu.edu.hk/sssubmission/ B7a/
 
 j. Suggested Reading for the full category >
 
-¦ Network flow Algorithms and Applications by Ahuja
+Â¦ Network flow Algorithms and Applications by Ahuja
 
-¦ Cormen book chapter 25.
+Â¦ Cormen book chapter 25.
 
     Dynamic Programming.
 
 a. Suggested Reading Dynamic Programming(DP) as a tabulation method
 
-¦ Cormen chapter on DP
+Â¦ Cormen chapter on DP
 
 b. Standard problems (you should really feel comfortable with these types)
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=8570&rd=12012&rm=269199&cr=7581406
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=8570&rd=12012&rm=269199&cr=7581406
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=10765&rd=14183
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=10765&rd=14183
 
 c. State space reduction
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=10902
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=10902
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=3001
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=3001
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=8605&rd=12012&rm=269199&cr=7581406
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=8605&rd=12012&rm=269199&cr=7581406
 
 d. Solving in the reverse easier characterizations looking from the end
 
-¦ http://www.spoj.pl/problems/MUSKET/
+Â¦ http://www.spoj.pl/problems/MUSKET/
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=5908
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=5908
 
 e. Counting/optimizing arrangements satisfying some specified properties
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=8306
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=8306
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=7849
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=7849
 
 f. Strategies and expected values
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=10765&rd=14183
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=10765&rd=14183
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=10806
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=10806
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=7828
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=7828
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=7316
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=7316
 
 g. DP on probability spaces
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=7422
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=7422
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=2959
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=2959
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=10335
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=10335
 
 h. DP on trees
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=10800
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=10800
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=10737
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=10737
 
-¦ http://www.topcoder.com/stat?c=problem_solution&rm=266678&rd=10958&pm=8266&cr=758140
+Â¦ http://www.topcoder.com/stat?c=problem_solution&rm=266678&rd=10958&pm=8266&cr=758140
 
 6
 
 i. DP with datastructures
 
-¦ http://www.spoj.pl/problems/INCSEQ/
+Â¦ http://www.spoj.pl/problems/INCSEQ/
 
-¦ http://www.spoj.pl/problems/INCDSEQ/
+Â¦ http://www.spoj.pl/problems/INCDSEQ/
 
-¦ http://www.spoj.pl/problems/LIS2/
+Â¦ http://www.spoj.pl/problems/LIS2/
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=1986
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=1986
 
 j. Symmetric characterization of DP state
 
-¦ http://www.topcoder.com/stat?c=problem_statement&pm=8610
+Â¦ http://www.topcoder.com/stat?c=problem_statement&pm=8610
 
 k. A good collection of problems
 
-¦ http://codeforces.com/blog/entry/325
+Â¦ http://codeforces.com/blog/entry/325
 
-¦ http://problemclassifier.appspot.com/index.jsp?search=dp&usr=
+Â¦ http://problemclassifier.appspot.com/index.jsp?search=dp&usr=
 
     Greedy.
 
-a. Suggested Reading ¦
+a. Suggested Reading Â¦
 
 Chapter on Greedy algorithms in Cormen.
 
-¦ http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=greedyAlg
+Â¦ http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=greedyAlg
 
 b. problems refer to the topcoder tutorial.
 
@@ -308,11 +308,11 @@ b. problems refer to the topcoder tutorial.
 
 a. Modulus arithmetic basic postulates [Including modular linear equations , Continued fraction and Pell's equation]
 
-¦ Suggested Reading 1. Chapter 1 from Number Theory for Computing by SY Yan [ Recommended ] 2. 31.1, 31.3 and 31.4 from Cormen
+Â¦ Suggested Reading 1. Chapter 1 from Number Theory for Computing by SY Yan [ Recommended ] 2. 31.1, 31.3 and 31.4 from Cormen
 
     www.topcoder.com/tc?module=Static&d1=tutorials&d2=primeNumbers
 
-¦ Problems
+Â¦ Problems
 
     http://projecteuler.net/index.php?section=problems&id=64
 
@@ -326,13 +326,13 @@ a. Modulus arithmetic basic postulates [Including modular linear equations , Con
 
 b. Fermat's theorem, Euler Totient theorem ( totient function, order , primitive roots )
 
-¦ Suggested Reading
+Â¦ Suggested Reading
 
     1.6, 2.2 from Number Theory by SY Yan
 
     31.6 , 31.7 from Cormen
 
-¦ Problems
+Â¦ Problems
 
     http://projecteuler.net/index.php?section=problems&id=70
 
@@ -340,23 +340,23 @@ b. Fermat's theorem, Euler Totient theorem ( totient function, order , primitive
 
 c. Chinese remainder theorem
 
-¦ Suggested Reading
+Â¦ Suggested Reading
 
     31.5 from Cormen
 
     1.6 from Number Theory by SY Yan
 
-¦ Problems
+Â¦ Problems
 
     Project Euler 271
 
     http://www.topcoder.com/stat?c=problem_statement&pm=10551&rd=13903
 
-d. Primality tests ¦
+d. Primality tests Â¦
 
 Deterministic O(sqrt(n) ) approach
 
-¦ Probabilistic primality tests Fermat
+Â¦ Probabilistic primality tests Fermat
 
 primality test, MillerRabin
 
@@ -378,15 +378,15 @@ b. http://www.topcoder.com/stat?c=problem_statement&pm=4515
 
 e. Prime generation techniques Sieve of Erastothenes
 
-¦ Suggested Problems PRIME1 on SPOJ
+Â¦ Suggested Problems PRIME1 on SPOJ
 
 f. GCD using euclidean method
 
-¦ Suggested Reading
+Â¦ Suggested Reading
 
     31.2 Cormen
 
-¦ Problems 1.
+Â¦ Problems 1.
 
 GCD on SPOJ
 
@@ -394,23 +394,23 @@ GCD on SPOJ
 
 g. Logarithmic Exponentiation
 
-¦ Suggested Reading 1.
+Â¦ Suggested Reading 1.
 
 http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=primalityTesting
 
 h. Integer Factorization
 
-¦ Naive O(sqrt(n)) method
+Â¦ Naive O(sqrt(n)) method
 
-¦ Pollard Rho factorization
+Â¦ Pollard Rho factorization
 
-¦ Suggested Reading
+Â¦ Suggested Reading
 
     2.3 from Number Theory SY Yan
 
     31.9 Cormen
 
-¦ Problems 1. http://www.topcoder.com/stat?c=problem_statement&pm=2986&rd=5862
+Â¦ Problems 1. http://www.topcoder.com/stat?c=problem_statement&pm=2986&rd=5862
 
     http://www.spoj.pl/problems/DIVSUM2/
 
@@ -420,25 +420,25 @@ i. Stirling numbers
 
 j. Wilson theorem
 
-¦ nCr % p in O(p) preprocess and O(log n ) query
+Â¦ nCr % p in O(p) preprocess and O(log n ) query
 
 k. Lucas Theorem
 
-l. Suggested Reading for Number Theory ¦
+l. Suggested Reading for Number Theory Â¦
 
 Number theory for computing by Song Y Yan [ Simple book describing concepts in details ]
 
-¦ Concepts are also superficially covered in Chapter 31 of Introduction to Algorithms by Cormen
+Â¦ Concepts are also superficially covered in Chapter 31 of Introduction to Algorithms by Cormen
 
-¦ http://www.codechef.com/wiki/tutorialnumbertheory
+Â¦ http://www.codechef.com/wiki/tutorialnumbertheory
 
-¦ http://www.algorithmist.com/index.php/Category:Number_Theory
+Â¦ http://www.algorithmist.com/index.php/Category:Number_Theory
 
-m. Problems on Number Theory ¦
+m. Problems on Number Theory Â¦
 
 http://www.algorithmist.com/index.php/Category:Number_Theory
 
-¦ http://problemclassifier.appspot.com/index.jsp?search=number&usr=
+Â¦ http://problemclassifier.appspot.com/index.jsp?search=number&usr=
 
     Math (Probability, Counting, Game Theory, Group Theory, Generating functions, Permutation Cycles, Linear Algebra)
 
@@ -446,7 +446,7 @@ a. Probability.
 
 Syllabus
 
-¦ Basic probability and Conditional probability
+Â¦ Basic probability and Conditional probability
 
     Suggested problems
 
@@ -454,9 +454,9 @@ a. http://www.spoj.pl/problems/CT16E/
 
 b. http://www.spoj.pl/problems/CHICAGO/
 
-¦ Random variables, probability generating functions
+Â¦ Random variables, probability generating functions
 
-¦ Mathematical expectation + Linearity of expectation
+Â¦ Mathematical expectation + Linearity of expectation
 
     Suggested problems
 
@@ -464,7 +464,7 @@ a. http://www.spoj.pl/problems/FAVDICE/
 
 b. http://www.topcoder.com/stat?c=problem_statement&pm=10744
 
-¦ Special discrete and continuous probability distributions
+Â¦ Special discrete and continuous probability distributions
 
     Bernoulli, Binomial, Poisson, normal distribution
 
@@ -472,7 +472,7 @@ b. http://www.topcoder.com/stat?c=problem_statement&pm=10744
 
 a. http://acm.sgu.ru/problem.php?contest=0&problem=498
 
-¦ Suggested Readings
+Â¦ Suggested Readings
 
     Cormen appendix C (very basic)
 
@@ -488,7 +488,7 @@ b. Counting
 
 Syllabus
 
-¦ Basic principles Pigeon
+Â¦ Basic principles Pigeon
 
 hole principle, addition, multiplication rules
 
@@ -504,11 +504,11 @@ a. http://en.wikipedia.org/wiki/Combinatorial_principles
 
 b. http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=combinatorics
 
-c. http://www.maa.org/editorial/knot/pigeonhole.html \¦ Inclusionexclusion
+c. http://www.maa.org/editorial/knot/pigeonhole.html \Â¦ Inclusionexclusion
 
 . Suggested readings
 
-a. http://en.wikipedia.org/wiki/Inclusion–exclusion_principle
+a. http://en.wikipedia.org/wiki/Inclusionâ€“exclusion_principle
 
     Suggested problems
 
@@ -516,7 +516,7 @@ a. http://www.topcoder.com/stat?c=problem_statement&pm=4463&rd=6536
 
 b. http://www.topcoder.com/stat?c=problem_statement&pm=10238
 
-¦ Special numbers
+Â¦ Special numbers
 
     Suggested reading Stirling,
 
@@ -544,7 +544,7 @@ c. http://www.topcoder.com/stat?c=problem_statement&pm=8725
 
 d. http://www.topcoder.com/stat?c=problem_statement&pm=2292&rd=10709
 
-¦ Advanced counting techniques Polya
+Â¦ Advanced counting techniques Polya
 
 counting, burnsides lemma 1. Suggested reading
 
@@ -566,7 +566,7 @@ c. Game theory
 
 Syllabus
 
-¦ Basic principles and Nim game
+Â¦ Basic principles and Nim game
 
     Sprague grundy theorem, grundy numbers
 
@@ -588,7 +588,7 @@ a. http://www.topcoder.com/stat?c=problem_statement&pm=3491&rd=6517
 
 b. http://www.topcoder.com/stat?c=problem_statement&pm=3491&rd=6517
 
-¦ Hackenbush
+Â¦ Hackenbush
 
     Suggested readings
 
@@ -608,7 +608,7 @@ d. Linear Algebra
 
 Syllabus
 
-¦ Matrix Operations
+Â¦ Matrix Operations
 
     Addition and subtraction of matrices
 
@@ -688,7 +688,7 @@ a. Problems
 
 i. http://www.topcoder.com/stat?c=problem_statement&pm=2423&rd=4780
 
-¦ Polynomials 1. Roots of a polynomial [ Prime factorization of a polynomial, Integer roots of a polynomial, All real roots of a
+Â¦ Polynomials 1. Roots of a polynomial [ Prime factorization of a polynomial, Integer roots of a polynomial, All real roots of a
 
 polynomial ]
 
@@ -708,15 +708,15 @@ ii.http://www.topcoder.com/stat?c=problem_statement&pm=8725
 
 e. Permutation cycles
 
-¦ Suggested Reading
+Â¦ Suggested Reading
 
     Art of Computer Programming by Knuth Vol. 3
 
-¦ Problems
+Â¦ Problems
 
     ShuffleMethod, Permutation and WordGame on topcoder.
 
-f. Group Theory ¦ Bernside Lemma, Polias theorem
+f. Group Theory Â¦ Bernside Lemma, Polias theorem
 
     Suggested Reading
 
@@ -736,7 +736,7 @@ b. http://www.topcoder.com/stat?c=problem_statement&pm=9975
 
 b. Generating functions
 
-¦ Suggested Reading
+Â¦ Suggested Reading
 
     Herbert Wilf's generating functionology
 
@@ -748,7 +748,7 @@ i. Basic
 
 a. Arrays/Stacks/Queues :
 
-¦ Problems
+Â¦ Problems
 
     https://www.spoj.pl/problems/STPAR/
 
@@ -756,7 +756,7 @@ a. Arrays/Stacks/Queues :
 
     https://www.spoj.pl/problems/WATER/
 
-¦ Reading:
+Â¦ Reading:
 
     CLRS: section 10.1
 
@@ -764,31 +764,31 @@ a. Arrays/Stacks/Queues :
 
 b. Singly/Doubly Linked List :
 
-¦ Problems
+Â¦ Problems
 
     h ttps://www.spoj.pl/problems/POSTERS/
 
-¦ Reading: CLRS: section 10.2, Mark Allen Weies Chapter 3
+Â¦ Reading: CLRS: section 10.2, Mark Allen Weies Chapter 3
 
 c. Hash Tables :
 
-¦ Problems
+Â¦ Problems
 
     https://www.spoj.pl/problems/HASHIT/
 
     https://www.spoj.pl/problems/CUCKOO/
 
-¦ Reading: CLRS: Chapter 11, Mark Allen Weies Chapter 5
+Â¦ Reading: CLRS: Chapter 11, Mark Allen Weies Chapter 5
 
 d. Circular linked list / queue
 
-¦ Problems
+Â¦ Problems
 
     https://www.spoj.pl/problems/CTRICK/
 
 e. Binary/nary Trees
 
-¦ Reading
+Â¦ Reading
 
     CLRS: section 10.4
 
@@ -800,53 +800,53 @@ e. Binary/nary Trees
 
 f. Heaps
 
-¦ Problems
+Â¦ Problems
 
     https://www.spoj.pl/problems/PRO/
 
     h ttps://www.spoj.pl/problems/EXPEDI/
 
-¦ Reading : Mark Allen Weies Chapter 6
+Â¦ Reading : Mark Allen Weies Chapter 6
 
 ii. Advanced
 
 a. Trie (Keyword tree)
 
-¦ Problems
+Â¦ Problems
 
     https://www.spoj.pl/problems/MORSE/
 
     https://www.spoj.pl/problems/EMOTICON/
 
-¦ Reading
+Â¦ Reading
 
 b. Interval trees / Segment Trees
 
-¦ Problems
+Â¦ Problems
 
     https://www.spoj.pl/problems/ORDERS/
 
     https://www.spoj.pl/problems/FREQUENT/
 
-¦ Reading
+Â¦ Reading
 
 c. Fenwick(Binary Indexed) trees
 
-¦ Problems
+Â¦ Problems
 
     https://www.spoj.pl/problems/MATSUM/
 
-¦ Reading: http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=binaryIndexedTrees
+Â¦ Reading: http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=binaryIndexedTrees
 
 d. Disjoint data structures
 
-¦ Problems
+Â¦ Problems
 
     https://www.spoj.pl/problems/BLINNET/
 
     https://www.spoj.pl/problems/CHAIN/
 
-¦ Reading:
+Â¦ Reading:
 
     http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=disjointDataStructure
 
@@ -854,29 +854,29 @@ d. Disjoint data structures
 
 e. Range minimum Query(RMQ)
 
-¦ Problems
+Â¦ Problems
 
     https://www.spoj.pl/problems/GSS1/
 
-¦ Reading http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=lowestCommonAncestor
+Â¦ Reading http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=lowestCommonAncestor
 
 f. Customized interval/segment trees (Augmented DS)
 
-¦ Problems
+Â¦ Problems
 
     https://www.spoj.pl/problems/GSS3/
 
     https://www.spoj.pl/problems/RRSCHED/
 
-¦ Reading: CLRS: Chapter 14 (augmented DS)
+Â¦ Reading: CLRS: Chapter 14 (augmented DS)
 
 g. AVL Trees
 
-¦ Problems
+Â¦ Problems
 
     https://www.spoj.pl/problems/ORDERS/
 
-¦ Reading
+Â¦ Reading
 
 iii. Miscellaneous (Not to be covered)
 
@@ -922,7 +922,7 @@ a. Backtracking [
 
 Beginner].
 
-¦ problems >
+Â¦ problems >
 
     N queens problems
 
@@ -938,11 +938,11 @@ b. Dancing Links and Algorithm X given by Knuth [
 
 Advanced]
 
-¦ problems PRLGAME,
+Â¦ problems PRLGAME,
 
 SUDOKU, NQUEEN on SPOJ
 
-¦ Suggested reading 1.
+Â¦ Suggested reading 1.
 
 http://wwwcsfaculty.
 
@@ -954,13 +954,13 @@ c. Binary Search [
 
 Beginner].
 
-¦ poblems AGGRCOW
+Â¦ poblems AGGRCOW
 
 on SPOJ. Refer the tutorial for more problems.
 
-¦ finding all real roots of a polynomial using binary search. [intermediate].
+Â¦ finding all real roots of a polynomial using binary search. [intermediate].
 
-¦ Suggested Reading 1.
+Â¦ Suggested Reading 1.
 
 http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=binarySearch
 
@@ -968,7 +968,7 @@ d. Ternary Search [
 
 Intermediate].
 
-¦ problems 1.
+Â¦ problems 1.
 
 http://www.spoj.pl/problems/KPPOLY/
 
@@ -986,7 +986,7 @@ http://www.spoj.pl/problems/KPPOLY/
 
 e. Meet in the middle [Intermediate].
 
-¦ problems 1.
+Â¦ problems 1.
 
 http://www.spoj.pl/problems/MAXISET/
 
@@ -996,15 +996,15 @@ f. Hill Climbing [Advanced].
 
 g. Regular Iteration to reach a fixed point [Advanced].
 
-¦ NewtonRaphson
+Â¦ NewtonRaphson
 
 method to find root of a mathematical function.
 
-¦ Iterations to solve linear nonhomogeneous
+Â¦ Iterations to solve linear nonhomogeneous
 
 system of equations.
 
-h. Randomized Algorithms [Intermediate]¦
+h. Randomized Algorithms [Intermediate]Â¦
 
 QuickSort.
 
@@ -1014,7 +1014,7 @@ a. Arithmetic Precision [
 
 Beginner].
 
-¦ Suggested Reading 1.
+Â¦ Suggested Reading 1.
 
 http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=integersReals
 
@@ -1022,10 +1022,10 @@ b. Representing sets with bitmasks and manipulating bitmasks [
 
 Beginner].
 
-¦ Suggested Reading 1.
+Â¦ Suggested Reading 1.
 
 http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=bitManipulation
 
-¦ problems refer
+Â¦ problems refer
 
 to the tutorial link in Suggested reading section.
